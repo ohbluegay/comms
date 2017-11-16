@@ -77,7 +77,7 @@
     },
     methods: {
       picker(){
-        this.$refs.picker.open();
+        this.$refs.picker.open()
       },
       publish(){
         var d = formatPicker(this.pickerTime)
