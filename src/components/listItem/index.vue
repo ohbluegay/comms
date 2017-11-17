@@ -55,7 +55,7 @@
     }
     .through {
       height: 2rem;
-      background: url("/static/images/th2.png") no-repeat;
+      background: url("./static/images/th2.png") no-repeat;
       background-size: 100% 100%;
       margin-top: 1rem;
     }
