@@ -2,7 +2,7 @@
   <div class="login">
     <div class="form_hd">
       <h3>MoreFly Way 登陆</h3>
-      <img src="/static/images/icon2@2x.png"/>
+      <img src="../../assets/images/icon2@2x.png"/>
     </div>
     <div class="form_content">
       <div class="form_item">

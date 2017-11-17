@@ -21,7 +21,7 @@
   }
 </script>
 <style lang="scss" rel="stylesheet/scss">
-
+  @import "../../assets/scss/mixin";
   .scroll {
     padding: 0 0 2rem 0;
   }
@@ -47,7 +47,7 @@
     &_btm {
       color: #999;
       text-align: right;
-      margin-top:1rem;
+      margin-top: 1rem;
       span {
         display: inline-block;
         margin-left: 1rem;
@@ -55,8 +55,7 @@
     }
     .through {
       height: 2rem;
-      background: url("./static/images/th2.png") no-repeat;
-      background-size: 100% 100%;
+      @include bg('../../assets/images/th2.png');
       margin-top: 1rem;
     }
   }
