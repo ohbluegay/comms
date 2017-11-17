@@ -5,9 +5,12 @@ import App from './App'
 import router from './router'
 import store from './store'
 import mintUi from 'mint-ui'
+import ElementUi from 'element-ui';
 import 'mint-ui/lib/style.min.css'
+import 'element-ui/lib/theme-chalk/index.css'
 import './assets/animate.min.css'
 Vue.use(mintUi)
+Vue.use(ElementUi)
 Vue.config.productionTip = false
 import {loading,close_load} from './util/msg'
 /* eslint-disable no-new */
