@@ -6,9 +6,9 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      name:'start',
-      path:'/',
-      redirect:'/dayFun'
+      name: 'start',
+      path: '/',
+      redirect: '/dayFun'
     },
     {
       path: '/login',
@@ -43,6 +43,12 @@ export default new Router({
       name: 'public',
       component: (resolve) => {
         require(["../components/public/index"], resolve);
+      }
+    }, {
+      path: '/ele',
+      name: 'ele',
+      component: (resolve) => {
+        require(["../components/element/index"], resolve)
       }
     }
   ]

@@ -27,6 +27,9 @@
           <li>
             <router-link to="/public">我要发布</router-link>
           </li>
+          <li>
+            <router-link to="/ele">element测试</router-link>
+          </li>
         </ul>
         <div class="hd_side_btm">
           <template v-if="auth">

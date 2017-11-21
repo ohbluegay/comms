@@ -21,7 +21,7 @@
   }
 </script>
 <style lang="scss" rel="stylesheet/scss">
-  @import "../../assets/scss/mixin";
+  @import "../../assets/scss/mixin.scss";
   .scroll {
     padding: 0 0 2rem 0;
   }

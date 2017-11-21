@@ -1,8 +1,7 @@
 /**
  * Created by CL on 2017/11/14.
  */
-import {Toast,Indicator} from 'mint-ui';
-
+import {Toast, Indicator} from 'mint-ui';
 export function toast_bm(str) {
   Toast({
     message: str,
@@ -25,4 +24,8 @@ export function loading() {
 }
 export function close_load() {
   Indicator.close();
+}
+
+export function alert1(e,str) {
+  e.$message(str)
 }
